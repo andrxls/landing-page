@@ -40,13 +40,46 @@ body {
     width: 100%;
     align-items: center;
     padding: 100px 0px;
+    gap: 30px;
 }
 
 .information {
     display: flex;
     width: 54vw;
-    justify-content: space-evenly;
+    justify-content: center;
     gap: 50px;
+}
+
+.content-quote {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0px;
+    background-color: #E5E7EB;
+}
+
+.information-quote {
+    display: flex;
+    flex-direction: column;
+    width: 54vw;
+    justify-content: center;
+    width: 41vw;
+}
+
+.quote {
+    display: flex;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    text-align: left;
+}
+
+.author {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: right;
+    margin-right: 40px;
 }
 
 .box {
