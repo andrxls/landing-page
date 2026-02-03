@@ -62,9 +62,26 @@ body {
 .information-quote {
     display: flex;
     flex-direction: column;
-    width: 54vw;
     justify-content: center;
     width: 41vw;
+}
+
+.call {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-size: 18px;
+    background-color: #3882F6;
+    width: 41vw;
+    padding: 45px 120px;
+    border-radius: 10px;
+}
+
+.action {
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .quote {
@@ -143,6 +160,10 @@ button {
     font-size: 17px;
     font-weight: 550;
     cursor:pointer;
+}
+
+.callb {
+    border: 2px solid white;
 }
 
 h2 {
