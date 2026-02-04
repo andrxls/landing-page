@@ -8,13 +8,16 @@ body {
     box-sizing: border-box;
 }
 
-.header, .footer, .container-header {
-    background-color: #1F2937;
+.container-header {
     font-size: 18px;
     display: flex;
 }
 
 .header {
+    background: url(/images/header-bg.png) no-repeat center;
+    background-size: cover;
+    font-size: 18px;
+    display: flex;
     flex-direction: column;
     width: 100%;
     align-items: center;
@@ -32,6 +35,8 @@ body {
     justify-content: center;
     padding: 30px;
     color: #F9FAF8;
+    font-size: 18px;
+    display: flex;
 }
 
 .content {
@@ -126,6 +131,7 @@ a {
     color: white;
     font-weight: 300;
     transition: 0.5s;
+    border-bottom: 1px solid white;
 }
 
 a:hover {
