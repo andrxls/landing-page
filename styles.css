@@ -63,16 +63,27 @@ body {
     display: flex;
     width: 54vw;
     justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.games {
+    display: flex;
+    width: 54vw;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
     gap: 50px;
 }
 
 .content-quote {
     display: flex;
+    flex-direction: column;
     width: 100%;
     align-items: center;
     justify-content: center;
     padding: 100px 0px;
     background-color: #E5E7EB;
+    gap: 100px;
 }
 
 .information-quote {
@@ -89,7 +100,7 @@ body {
     justify-content: space-between;
     color: white;
     font-size: 18px;
-    background-color: #3882F6;
+    background-color: #2a6448;
     width: 41vw;
     padding: 45px 120px;
     border-radius: 10px;
@@ -125,6 +136,17 @@ body {
     gap: 5px;
 }
 
+.box-game {
+    display: flex;
+    flex-direction: column;
+    width: 168px;
+    gap: 5px;
+}
+
+.box-game img {
+    border-radius: 8px;
+}
+
 .logo img {
     width: 50px;
     padding: 20px;
@@ -150,8 +172,10 @@ a:hover {
 
 .box img {
     align-self: center;
-    border-radius: 10px;
+    border-radius: 12px;
     margin-bottom: 10px;
+    border: 2px solid #0F2A1D;
+    padding: 5px;
 }
 
 .hero {
@@ -170,7 +194,7 @@ a:hover {
 }
 
 button {
-    background-color: #3882F6;
+    background-color: #FF8E27;
     border: none;
     padding: 8px 35px;
     margin: 15px 0px;
@@ -180,6 +204,11 @@ button {
     font-weight: 550;
     cursor:pointer;
     white-space: nowrap;
+    transition: 0.5s;
+}
+
+button:hover {
+    background-color: #df7e25;
 }
 
 .callb {
