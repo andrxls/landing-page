@@ -31,7 +31,18 @@ body {
     gap: 50px;
 }
 
+.image {
+    width: 50%;
+}
+
+.imgheader {
+    max-width:100%;
+    height: auto;
+    border-radius: 10px;
+}
+
 .footer {
+    background-color: #0F2A1D;
     justify-content: center;
     padding: 30px;
     color: #F9FAF8;
@@ -114,10 +125,9 @@ body {
     gap: 5px;
 }
 
-.logo {
-    font-size: 24px;
-    color: #F9FAF8;
-    font-weight: 700;
+.logo img {
+    width: 50px;
+    padding: 20px;
 }
 
 ul {
@@ -141,10 +151,12 @@ a:hover {
 .box img {
     align-self: center;
     border-radius: 10px;
+    margin-bottom: 10px;
 }
 
 .hero {
     padding: 100px 0px;
+    width: 50%;
 }
 
 .title {
